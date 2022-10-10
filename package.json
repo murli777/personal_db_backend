@@ -5,14 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Murlidhar Bhardwaj",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongodb": "4.8",
-    "nodemon": "^2.0.19"
+    "mongodb": "4.8"
   }
 }
