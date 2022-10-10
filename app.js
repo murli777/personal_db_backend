@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://personal-database.netlify.app/");
+  res.header("Access-Control-Allow-Origin", "https://personal-database.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
